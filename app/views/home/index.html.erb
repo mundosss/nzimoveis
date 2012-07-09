@@ -1,0 +1,53 @@
+
+<% @imoveis.each do |imovel| %>
+ <div class="flat">
+   <h2><a name="flatA"><%= imovel.nome %></a></h2>
+    <p><%= imovel.descricao %></p>
+
+   <ul class="galeria">
+    <% imovel.fotos.each do |foto|%>
+      <li><%= link_to (image_tag foto.imagem.url(:medium)), foto.imagem.url, :class => "fancybox-thumbs",
+           :"data-fancybox-group"=>name_gallery(imovel) %></li>
+    <% end %>
+   </ul>
+ </div><!--fim div flat-->
+<% end %>
+<div id="paginacao">
+
+      <%= will_paginate @imoveis %>
+
+</div>
+<% content_for :rodape do %>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            /*
+             *  Simple image gallery. Uses default settings
+             */
+
+            $('.fancybox').fancybox();
+
+            /*
+             *  Thumbnail helper. Disable animations, hide close button, arrows and slide to next gallery item if clicked
+             */
+
+            $('.fancybox-thumbs').fancybox({
+                prevEffect : 'none',
+                nextEffect : 'none',
+
+                closeBtn  : true,
+                arrows    : true,
+                nextClick : true,
+
+                helpers : {
+                    thumbs : {
+                        width  : 50,
+                        height : 50
+                    }
+                }
+            });
+
+        });
+    </script>
+
+<% end %>

@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  imovel: 
+  caption: MyString
+
+two:
+  imovel: 
+  caption: MyString

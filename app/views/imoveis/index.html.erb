@@ -1,0 +1,27 @@
+<h1>Listagem de Imóveis</h1>
+
+<table class="table table-striped">
+  <tr>
+    <th>Nome</th>
+    <th>Descricao</th>
+    <th>Valor</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @imoveis.each do |imovel| %>
+  <tr>
+    <td><%= imovel.nome %></td>
+    <td><%= imovel.descricao %></td>
+    <td><%= imovel.valor %></td>
+    <td><%= link_to 'Mostrar', imovel %></td>
+    <td><%= link_to 'Alterar', edit_imovel_path(imovel) %></td>
+    <td><%= link_to 'Excluir', imovel, method: :delete, data: { confirm: 'Realmente quer excluir?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'Novo Imóvel', new_imovel_path, :class => "btn btn-success" %>

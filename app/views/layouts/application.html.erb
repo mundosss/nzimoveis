@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nzimoveis</title>
+  <%= stylesheet_link_tag "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+ <div id="content">
+
+    <div id="topo">
+      <div id="box_topo">
+
+      </div><!-- fim div box topo -->
+    </div><!-- fim div topo -->
+
+    <div id="baner">
+      <div id="conteudo_baner">
+        <ul class="menu">
+          <li><%= link_to "Home", home_index_path %></li>
+          <li><%= link_to "Contato", new_contato_path %></li>
+        </ul>
+      </div>
+    </div><!-- fim div baner -->
+
+    <div id="meio">
+       <%= yield %>
+    </div> <!-- fim div meio -->
+
+    <div id="rodape">
+
+    </div> <!-- fim div rodape -->
+ </div> <!-- fim div content-->
+
+</body>
+<%= yield :rodape %>
+</html>
