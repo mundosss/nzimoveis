@@ -2,3 +2,35 @@
 *= require_self
 *= require bootstrap_and_overrides
 */
+
+#clear {
+    clear: both;
+}
+.pagination {
+
+
+    border-left: 1px solid #cbcbcb;
+}
+.pagination a, .pagination span, .pagination em {
+    padding: 0.2em 0.5em; }
+.pagination .disabled {
+    color: #aaaaaa; }
+.pagination .current {
+  color: #fff;
+}
+.pagination a {
+    border: 1px solid #dddddd;
+    color: #00BFFF;
+    text-decoration: none; }
+.pagination a:hover, .pagination a:focus {
+    background: #00BFFF;
+    color: white; }
+.pagination .page_info {
+    color: #aaaaaa;
+    padding-top: 0.8em; }
+.pagination .previous_page, .pagination .next_page {
+    border-width: 2px; }
+.pagination .previous_page {
+    margin-right: 1em; }
+.pagination .next_page {
+    margin-left: 1em; }

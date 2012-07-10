@@ -3,7 +3,10 @@
 
 en:
   hello: "Hello world"
-  will_paginate:
-      previous_label: "&#8592; Anterior"
-      next_label: "Próximo &#8594;"
-      page_gap: "&hellip;"
+  views:
+      pagination:
+        first: "&laquo; Primeiro"
+        last: "Último &raquo;"
+        previous: "&lsaquo; Anterior"
+        next: "Pŕoximo &rsaquo;"
+        truncate: "..."

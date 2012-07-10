@@ -1,4 +1,3 @@
-
 <% @imoveis.each do |imovel| %>
  <div class="flat">
    <h2><a name="flatA"><%= imovel.nome %></a></h2>
@@ -12,11 +11,9 @@
    </ul>
  </div><!--fim div flat-->
 <% end %>
-<div id="paginacao">
 
-      <%= will_paginate @imoveis %>
+<%= paginate @imoveis %>
 
-</div>
 <% content_for :rodape do %>
 
     <script type="text/javascript">

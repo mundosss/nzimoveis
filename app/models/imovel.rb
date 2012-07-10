@@ -5,5 +5,7 @@ class Imovel < ActiveRecord::Base
 
   accepts_nested_attributes_for :fotos, :reject_if => proc { |attributes| attributes['imagem'].blank? }
 
+  paginates_per 3
+
 end
 

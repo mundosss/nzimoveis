@@ -1,6 +1,8 @@
 class HomeController < ApplicationController
+
   def index
-    @imoveis = Imovel.order("nome").paginate(:page=> params['page'], :per_page=>3)
+    @imoveis = Imovel.order(:nome).page params[:page]
 
   end
+
 end

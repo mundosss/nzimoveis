@@ -4,7 +4,7 @@ class ImoveisController < ApplicationController
 
   layout "admin"
   def index
-    @imoveis = Imovel.all
+    @imoveis = Imovel.order(:nome).page(params[:page]).per(3)
 
     respond_to do |format|
       format.html # index.html.erb

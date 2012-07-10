@@ -64,6 +64,17 @@ body
     font: bold 16px Arial, Helvetica, sans-serif;
 }
 
+h1.logo{
+    width: 960px;
+    height: 282px;
+    float: left;
+    margin: 0 0 0 316px;
+    text-align: left;
+    text-indent:-9999px;
+    background: url(logo.png) center top no-repeat;
+    display: block;
+}
+
 #baner
 {
     background: url(bg-flat.jpg) no-repeat;

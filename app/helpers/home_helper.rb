@@ -3,3 +3,4 @@ module HomeHelper
     "thumb"+imovel.id.to_s
   end
 end
+
