@@ -12,6 +12,6 @@ class UserMailer < ActionMailer::Base
 
   def contato(contato)
     @contato = contato
-    mail(to: "mundosss@gmail.com", subject: 'Contato NZimóveis')
+    mail(to: "neuza@nzimoveis.com.br", subject: 'Contato NZimóveis')
   end
 end
