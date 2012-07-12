@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class ImoveisController < ApplicationController
 
   before_filter :authenticate_user!
@@ -27,7 +28,7 @@ class ImoveisController < ApplicationController
   # GET /imoveis/new.json
   def new
     @imovel = Imovel.new
-    6.times do
+    12.times do
       @imovel.fotos.build
     end
 

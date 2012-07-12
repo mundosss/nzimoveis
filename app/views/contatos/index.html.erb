@@ -1,15 +1,14 @@
-<h1>Listing contatos</h1>
+<h1>Lista de contatos</h1>
 
-<table>
+<table class="table table-striped">
   <tr>
     <th>Nome</th>
     <th>Email</th>
     <th>Cidade</th>
     <th>Estado</th>
-    <th>Info</th>
-    <th></th>
-    <th></th>
-    <th></th>
+    <th>Mensagem</th>
+    <th colspan="3">Ações</th>
+
   </tr>
 
 <% @contatos.each do |contato| %>
@@ -19,13 +18,13 @@
     <td><%= contato.cidade %></td>
     <td><%= contato.estado %></td>
     <td><%= contato.info %></td>
-    <td><%= link_to 'Show', contato %></td>
-    <td><%= link_to 'Edit', edit_contato_path(contato) %></td>
-    <td><%= link_to 'Destroy', contato, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <td><%= link_to 'Mostrar', contato %></td>
+    <td><%= link_to 'Alterar', edit_contato_path(contato) %></td>
+    <td><%= link_to 'Deletar', contato, method: :delete, data: { confirm: 'Você realmente quer excluir?' } %></td>
   </tr>
 <% end %>
 </table>
 
 <br />
 
-<%= link_to 'New Contato', new_contato_path %>
+<%= paginate @contatos %>

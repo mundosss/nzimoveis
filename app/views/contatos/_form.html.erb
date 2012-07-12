@@ -1,7 +1,7 @@
 <%= form_for(@contato, :html => {:id => "form", :class => "contato"}) do |f| %>
   <% if @contato.errors.any? %>
     <div id="error_explanation">
-      <h2><%= pluralize(@contato.errors.count, "error") %> prohibited this contato from being saved:</h2>
+      <h2><%= pluralize(@contato.errors.count, "erro") %> encontrado:</h2>
 
       <ul>
       <% @contato.errors.full_messages.each do |msg| %>
@@ -11,17 +11,12 @@
     </div>
   <% end %>
 
-
-
     <%= f.label :nome %>
     <%= f.text_field :nome %>
-  
-    
-  
+
     <%= f.label :email %>
     <%= f.text_field :email %>
 
-  
     <%= f.label :cidade %>
     <%= f.text_field :cidade %>
 
@@ -31,8 +26,6 @@
                             "Goiás", "Maranhão", "Mato Grosso do Sul", "Minas Gerais", "Pará", "Paraiba", "Pernambuco",
                             "Piaui", "Rio de Janeiro", "Rio Grande do Norte", "Rio Grande do sul", "Rondônia", "Roraima",
                             "Santa Catarina", "São Paulo", "Sergipe", "Tocantins"]) %>
-
-  
     <%= f.label :info %>
     <%= f.text_area :info %>
 

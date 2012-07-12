@@ -10,6 +10,7 @@ gem 'mysql2'
 gem "paperclip", "~> 3.0"
 gem "twitter-bootstrap-rails"
 gem 'devise'
+gem 'kaminari'
 
 
 # Gems used only for assets and not required
@@ -17,7 +18,7 @@ gem 'devise'
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
-  gem 'kaminari'
+
 
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes

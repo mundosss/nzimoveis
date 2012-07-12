@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 Nzimoveis::Application.routes.draw do
 
   devise_for :users

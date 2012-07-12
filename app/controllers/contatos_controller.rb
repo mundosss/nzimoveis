@@ -1,8 +1,11 @@
+# -*- encoding : utf-8 -*-
 class ContatosController < ApplicationController
-  # GET /contatos
-  # GET /contatos.json
+
+   layout 'admin',:except=>[:new, :show, :create]
+
   def index
-    @contatos = Contato.all
+
+    @contatos = Contato.order(:nome).page(params[:page]).per(3)
 
     respond_to do |format|
       format.html # index.html.erb
@@ -24,6 +27,7 @@ class ContatosController < ApplicationController
   # GET /contatos/new
   # GET /contatos/new.json
   def new
+
     @contato = Contato.new
 
     respond_to do |format|
@@ -44,10 +48,11 @@ class ContatosController < ApplicationController
 
     respond_to do |format|
       if @contato.save
-        format.html { redirect_to @contato, notice: 'Contato was successfully created.' }
+        UserMailer.contato(@contato).deliver
+        format.html { redirect_to @contato, notice: 'Seu contato foi enviado, aguarde nosso retorno.' }
         format.json { render json: @contato, status: :created, location: @contato }
       else
-        format.html { render action: "new" }
+        format.html { render "new" }
         format.json { render json: @contato.errors, status: :unprocessable_entity }
       end
     end

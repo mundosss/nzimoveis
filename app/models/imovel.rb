@@ -1,5 +1,8 @@
+# -*- encoding : utf-8 -*-
 class Imovel < ActiveRecord::Base
   attr_accessible :descricao, :nome, :valor, :fotos_attributes
+
+  validates :descricao, :nome, :presence => true
 
   has_many :fotos
 

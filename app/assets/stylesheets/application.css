@@ -65,14 +65,24 @@ body
 }
 
 h1.logo{
-    width: 960px;
-    height: 282px;
+    width: 250px;
+    height: 100px;
     float: left;
-    margin: 0 0 0 316px;
-    text-align: left;
+    margin: 100px 0 0 20px;
     text-indent:-9999px;
-    background: url(logo.png) center top no-repeat;
+    background: url(logo.jpg) center top no-repeat;
     display: block;
+}
+
+#conteudo_baner span {
+    width: 244px;
+    float: left;
+    margin: 1px 0 0 20px;
+    clear: both;
+    color: #2ba7dd;
+    font: bold 12px Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding: 3px 0px 3px 6px;
 }
 
 #baner
@@ -82,7 +92,6 @@ h1.logo{
     height: 334px;
     display: block;
     float: left;
-
 }
 
 #conteudo_baner
@@ -96,16 +105,17 @@ h1.logo{
 
 #conteudo_baner ul.menu {
     width: 873px;
+    *width: 893px;
     height: 36px;
-    margin-top: 240px;
+    margin: 240px 0 0 4px;
     background: url(bg.png) repeat;
-    margin-left: 4px;
+    *padding: 0 0 0 20px;
 }
 
 #conteudo_baner ul.menu li {
+
     float: left;
     list-style-type: none;
-
 }
 
 #conteudo_baner ul.menu li a {
@@ -117,7 +127,6 @@ h1.logo{
     font-size: 12pt;
     text-justify: auto;
     margin-top: 9px;
-
 }
 
 #conteudo_baner ul.menu li a:hover {
@@ -127,10 +136,12 @@ h1.logo{
 
 .flat
 {
-    background: url(bg-flat.jpg) no-repeat;
+    background: url(bg-flat.jpg) repeat;
     width: 960px;
-    height: 334px;
+    height: auto;
     float: left;
+    margin: 0 0px 5px 0px;
+    padding: 0 0 20px 0;
 }
 
 .flat ul
@@ -140,24 +151,23 @@ h1.logo{
 
 .flat ul li
 {
-    width: 135px;
-    height: 125px;
-    margin: 0;
-    padding: 0;
+    width: 130px;
+    height: 115px;
     float: left;
-    margin-right: 5px;
+    margin: 15px 15px 3px 3px;
 }
 
 .flat ul li a img
 {
-    width: 135px;
-    height: 125px;
-    border: #666666 1px solid;
+    width: 130px;
+    height: 115px;
+    border: #fff 2px solid;
 }
 
 .flat h2
 {
     margin-left: 10px;
+    *padding: 10px 0 0 0;
 }
 
 .flat p
@@ -167,7 +177,6 @@ h1.logo{
     font-size: 10pt;
     margin-left: 15px;
     margin-right: 15px;
-
 }
 
 h2
@@ -182,6 +191,23 @@ h2
 {
     width: 960px;
     height: auto;
+}
+
+#rodape {
+    clear: both;
+    display:block;
+    float: right;
+    font: bold 13px Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding: 0 0 5px 400px;
+    width: 400px;
+    height: 20px;
+}
+
+#rodape a {
+  text-decoration: none;
+  color: white;
+
 }
 
 #contato
@@ -275,6 +301,39 @@ h2
  -o-border-radius: 5px;
  -ms-border-radius: 5px;
  -khtml-border-radius: 5px;
+}
+
+#error_explanation ul li{
+    text-decoration: none;
+    color: #ff0000;
+}
+
+#notice {
+    color: #ffe913;
+    padding-top: 25px;
+}
+
+.button_contato {
+    width: auto;
+    height: auto;
+    float: left;
+    padding: 5px;
+    background: #666666;
+    color: #00BFFF;
+    margin: 0 0 0 0px;
+    cursor: pointer;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -khtml-border-radius: 5px;
+}
+
+.button_contato:hover{
+    background: yellow;
 }
 
 #stylized input.button_contato:hover{

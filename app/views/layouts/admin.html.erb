@@ -31,8 +31,7 @@
           <a class="brand" href="/">Nzimoveis</a>
           <div class="container nav-collapse">
             <ul class="nav">
-              <!--<li><%#= link_to "Link1", "/path1"  %></li>-->
-              <!--<li><%#= link_to "Link2", "/path2"  %></li>-->
+              <li><%= link_to "Imóveis", imoveis_path  %></li>
               <li><%= link_to "Sair", destroy_user_session_path, :method => :delete  %></li>
             </ul>
           </div><!--/.nav-collapse -->
@@ -43,8 +42,8 @@
     <div class="container">
       <div class="content">
         <div class="row">
-           <div class="span12 ">
-             <p id="notice"><%= notice %></p>
+           <div class="span12">
+             <%= render 'layouts/messages' %>
               <%= yield %>
             </div>
             <!--<div class="span3">-->
