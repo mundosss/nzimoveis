@@ -232,3 +232,10 @@ pt-BR:
 
       full_messages:
         format: "%{attribute} %{message}"
+  views:
+        pagination:
+          first: "&laquo; Primeiro"
+          last: "Último &raquo;"
+          previous: "&lsaquo; Anterior"
+          next: "Pŕoximo &rsaquo;"
+          truncate: "..."
