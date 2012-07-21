@@ -26,19 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="56" selection-start="1287" selection-end="1287" vertical-scroll-proportion="-18.958334">
+            <state line="30" column="51" selection-start="1218" selection-end="1218" vertical-scroll-proportion="0.70247936">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="14" selection-start="1567" selection-end="1567" vertical-scroll-proportion="0.88379705">
+            <state line="84" column="14" selection-start="1567" selection-end="1567" vertical-scroll-proportion="-17.419355">
               <folding />
             </state>
           </provider>
@@ -68,8 +68,8 @@
         <option value="$PROJECT_DIR$/app/views/imoveis/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/imoveis/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/contatos/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
     </option>
   </component>
@@ -717,16 +717,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="56" selection-start="1287" selection-end="1287" vertical-scroll-proportion="-18.958334">
+        <state line="84" column="14" selection-start="1567" selection-end="1567" vertical-scroll-proportion="-17.419355">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="14" selection-start="1567" selection-end="1567" vertical-scroll-proportion="0.88379705">
+        <state line="30" column="51" selection-start="1218" selection-end="1218" vertical-scroll-proportion="0.70247936">
           <folding />
         </state>
       </provider>
