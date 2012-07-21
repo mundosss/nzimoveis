@@ -74,6 +74,18 @@ h1.logo{
     display: block;
 }
 
+h2.caldasnovas{
+    width: 390px;
+    height: 10px;
+    float: right;
+    clear: both;
+    display: block;
+    color: #ffffff;
+    font-size: 35px;
+    margin: -80px 0 0 0;
+
+}
+
 #conteudo_baner span {
     width: 244px;
     float: left;
