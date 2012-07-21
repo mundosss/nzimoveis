@@ -47,7 +47,7 @@
       <file leaf-file-name="new.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/contatos/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="85" selection-start="167" selection-end="167" vertical-scroll-proportion="0.07281554">
+            <state line="7" column="98" selection-start="233" selection-end="233" vertical-scroll-proportion="0.1699029">
               <folding />
             </state>
           </provider>
@@ -691,7 +691,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/contatos/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="85" selection-start="167" selection-end="167" vertical-scroll-proportion="0.07281554">
+        <state line="7" column="98" selection-start="233" selection-end="233" vertical-scroll-proportion="0.1699029">
           <folding />
         </state>
       </provider>
