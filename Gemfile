@@ -11,6 +11,7 @@ gem "paperclip", "~> 3.0"
 gem "twitter-bootstrap-rails"
 gem 'devise'
 gem 'kaminari'
+gem 'exception_notification'
 
 
 # Gems used only for assets and not required
