@@ -50,7 +50,7 @@ class ImoveisController < ApplicationController
 
     respond_to do |format|
       if @imovel.save
-        format.html { redirect_to @imovel, notice: 'Imovel was successfully created.' }
+        format.html { redirect_to @imovel, notice: 'Imóvel criado com sucesso.' }
         format.json { render json: @imovel, status: :created, location: @imovel }
       else
         format.html { render action: "new" }
@@ -66,7 +66,7 @@ class ImoveisController < ApplicationController
 
     respond_to do |format|
       if @imovel.update_attributes(params[:imovel])
-        format.html { redirect_to @imovel, notice: 'Imovel was successfully updated.' }
+        format.html { redirect_to @imovel, notice: 'Imóvel atualizado com sucesso.' }
         format.json { head :no_content }
       else
         format.html { render action: "edit" }
