@@ -55,13 +55,9 @@ Nzimoveis::Application.configure do
   # configuração de email
   config.action_mailer.default_url_options = { :host => 'nzimoveis.com.br' }
   config.action_mailer.delivery_method = :smtp
-  config.action_mailer.perform_deliveries = true
-  config.action_mailer.raise_delivery_errors = true
-  config.action_mailer.default :charset => "utf-8"
   config.action_mailer.smtp_settings = {
       :address                 => "smtp.gmail.com",
       :port                    =>  587,
-      :domain                  =>  "nzimoveis.com.br",
       :user_name               =>  'mundosss@gmail.com',
       :password                =>  'furiacd25',
       :authentication          =>  'plain',
