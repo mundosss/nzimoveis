@@ -66,15 +66,29 @@
         <entry file="file://$PROJECT_DIR$/app/views/imoveis/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="32" column="71" selection-start="676" selection-end="703" vertical-scroll-proportion="-20.0">
+              <folding>
+                <marker date="1342881688000" expanded="true" signature="64:569" placeholder="..." />
+                <marker date="1342881688000" expanded="true" signature="71:181" placeholder="..." />
+                <marker date="1342881688000" expanded="true" signature="221:550" placeholder="..." />
+                <marker date="1342881688000" expanded="true" signature="595:603" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/imoveis/edit.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="19" selection-start="66" selection-end="66" vertical-scroll-proportion="-2.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/imoveis/edit.html.erb">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="19" selection-start="66" selection-end="66" vertical-scroll-proportion="0.1010101">
+            <state line="14" column="41" selection-start="299" selection-end="299" vertical-scroll-proportion="0.32524273">
               <folding />
             </state>
           </provider>
@@ -766,11 +780,6 @@
         <state line="67" column="47" selection-start="2588" selection-end="2588" vertical-scroll-proportion="1.675" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="31" selection-start="346" selection-end="346" vertical-scroll-proportion="0.39719626" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/admin.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="41" selection-start="1220" selection-end="1220" vertical-scroll-proportion="0.7281553">
@@ -809,7 +818,12 @@
     <entry file="file://$PROJECT_DIR$/app/views/imoveis/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="71" selection-start="676" selection-end="703" vertical-scroll-proportion="-20.0">
-          <folding />
+          <folding>
+            <marker date="1342881688000" expanded="true" signature="64:569" placeholder="..." />
+            <marker date="1342881688000" expanded="true" signature="71:181" placeholder="..." />
+            <marker date="1342881688000" expanded="true" signature="221:550" placeholder="..." />
+            <marker date="1342881688000" expanded="true" signature="595:603" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -829,7 +843,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/imoveis/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="19" selection-start="66" selection-end="66" vertical-scroll-proportion="0.1010101">
+        <state line="4" column="19" selection-start="66" selection-end="66" vertical-scroll-proportion="-2.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="41" selection-start="299" selection-end="299" vertical-scroll-proportion="0.32524273">
           <folding />
         </state>
       </provider>
