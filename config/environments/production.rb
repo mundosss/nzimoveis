@@ -56,7 +56,7 @@ Nzimoveis::Application.configure do
   config.active_support.deprecation = :notify
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
-      :address => 'webmail.nzimoveis.com.br/',          # mail.example.com
+      :address => 'webmail.nzimoveis.com.br',          # mail.example.com
       :domain => 'nzimoveis.com.br',                 # example.com
       :user_name => 'neuza@nzimoveis.com.br',            # user.name
       :password => 'neuza159*', # p@ssw0rd
