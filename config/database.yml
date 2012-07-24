@@ -36,9 +36,9 @@ production:
   encoding: utf8
   reconnect: false
   database: nzimoveis_development
-  #database: nzimoveis
+#  database: nzimoveis
   pool: 5
   username: root
   password: "123456"
-  #password: "web#123844"
+#  password: "web#123844"
   socket: /var/run/mysqld/mysqld.sock
