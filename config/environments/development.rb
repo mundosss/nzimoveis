@@ -50,7 +50,7 @@ Nzimoveis::Application.configure do
      domain: "nzimoveis.com.br",
      authentication: "plain",
      enable_starttls_auto: true,
-     user_name: "mundosss@gmail.com",
-     password: "furiacd25"
+     user_name: "webdevelopertecsis@gmail.com",
+     password: "qwe258456/*"
  }
 end
