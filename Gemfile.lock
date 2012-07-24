@@ -148,5 +148,5 @@ DEPENDENCIES
   paperclip (~> 3.0)
   rails (= 3.2.6)
   sass-rails (~> 3.2.3)
-  twitter-bootstrap-rails (~> 2.1.1)
+  twitter-bootstrap-rails (>= 2.0.3)
   uglifier (>= 1.0.3)
