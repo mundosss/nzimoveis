@@ -53,18 +53,27 @@ Nzimoveis::Application.configure do
   # config.action_mailer.raise_delivery_errors = false
 
   # configuração de email
-  config.action_mailer.default_url_options = { :host => 'nzimoveis.com.br' }
-  config.action_mailer.delivery_method = :smtp
-  config.action_mailer.smtp_settings = {
-      :enable_starttls_auto => true,
-      :address => 'smtp.gmail.com',
-      :port => 587,
-      :domain => 'gmail.com', #you can also use google.com
-      :authentication => :login,
-      :user_name => 'webdevelopertecsis@gmail.com',
-      :password => 'qwe258456/*'
-  }
-  
+  #config.action_mailer.default_url_options = { :host => 'nzimoveis.com.br' }
+  #config.action_mailer.delivery_method = :smtp
+  #config.action_mailer.smtp_settings = {
+  #    :address                 => "smtp.gmail.com",
+  #    :port                    =>  587,
+  #    :user_name               =>  'mundosss@gmail.com',
+  #    :password                =>  'furiacd25',
+  #    :authentication          =>  'plain',
+  #    :enable_starttls_auto    =>   true
+  #}
+
+ config.action_mailer.delivery_method = :smtp
+ config.action_mailer.smtp_settings = {
+   :address => 'mail.exchange.locaweb.com.br',          # mail.example.com
+   :domain => 'promocaovounessa.com.br',                 # example.com
+   :user_name => 'promocaovounessa@tecsis.inf.br',            # user.name
+   :password => 'vounessa154791*', # p@ssw0rd
+   :port => 587,
+   :authentication => 'login',
+   :enable_starttls_auto => true
+ }
 
   # Enable threaded mode
   # config.threadsafe!
