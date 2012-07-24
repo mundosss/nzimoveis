@@ -44,13 +44,15 @@ Nzimoveis::Application.configure do
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.default :charset => "utf-8"
 
-  config.action_mailer.smtp_settings = { 
+  config.action_mailer.smtp_settings = {
      address: "smtp.gmail.com",
      port: 587,
      domain: "nzimoveis.com.br",
      authentication: "plain",
      enable_starttls_auto: true,
-     user_name: "mundosss@gmail.com",
-     password: "furiacd25"
+     user_name: "webdevelopertecsis@gmail.com",
+     password: "qwe258456/*"
  }
+
+
 end
