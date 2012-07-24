@@ -60,7 +60,7 @@ Nzimoveis::Application.configure do
       :port => 587,
       :tls => true,
       :domain => 'gmail.com', #you can also use google.com
-      :authentication => :plain,
+      :authentication => :login,
       :user_name => 'mundosss@gmail.com',
       :password => 'furiacd25'
   }
