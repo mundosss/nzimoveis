@@ -1,6 +1,6 @@
 # -*- encoding : utf-8 -*-
 class UserMailer < ActionMailer::Base
-  default from: "webdevelopertecsis@gmail.com"
+  default from: "neuzanzimoveis@gmail.com"
 
 
 #  def mensagem_boas_vindas(user)
