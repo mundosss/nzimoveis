@@ -1,6 +1,6 @@
 # -*- encoding : utf-8 -*-
 class UserMailer < ActionMailer::Base
-  default from: "mundosss@gmail.com"
+  default from: "webdevelopertecsis@gmail.com"
 
 
 #  def mensagem_boas_vindas(user)
@@ -12,6 +12,6 @@ class UserMailer < ActionMailer::Base
 
   def contato(contato)
     @contato = contato
-    mail(to: "hudsonmaradona@gmail.com", subject: 'Contato NZimóveis')
+    mail(to: "neuza@nzimoveis.com.br", subject: 'Contato NZimóveis')
   end
 end

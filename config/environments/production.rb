@@ -79,8 +79,8 @@ Nzimoveis::Application.configure do
      domain: "nzimoveis.com.br",
      authentication: "plain",
      enable_starttls_auto: true,
-     user_name: "mgswolf@gmail.com",
-     password: "mgswolf123844"
+     user_name: "neuzanzimoveis@gmail.com",
+     password: "neuza159*"
  }
 
   # Enable threaded mode
