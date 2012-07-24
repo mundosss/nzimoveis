@@ -54,16 +54,29 @@ Nzimoveis::Application.configure do
 
   
   # configuração de email
-  config.action_mailer.default_url_options = { :host => 'nzimoveis.com.br' }
-  config.action_mailer.delivery_method = :smtp
-  config.action_mailer.smtp_settings = {
-      :address                 => "smtp.gmail.com",
-      :port                    =>  587,
-      :user_name               =>  'mundosss@gmail.com',
-      :password                =>  'furiacd25',
-      :authentication          =>  'plain',
-      :enable_starttls_auto    =>   true
-  }
+  #config.action_mailer.default_url_options = { :host => 'nzimoveis.com.br' }
+  #config.action_mailer.delivery_method = :smtp
+  #config.action_mailer.smtp_settings = {
+  #    :address                 => "smtp.gmail.com",
+  #    :port                    =>  587,
+  #    :user_name               =>  'mundosss@gmail.com',
+  #    :password                =>  'furiacd25',
+  #    :authentication          =>  'plain',
+  #    :enable_starttls_auto    =>   true
+  #}
+
+config.action_mailer.default_url_options = { :host => 'nzimoveis.com.br' }
+config.action_mailer.perform_deliveries = true
+config.action_mailer.default :charset => "utf-8"
+ ActionMailer::Base.smtp_settings = {
+ :address              => "smtp.gmail.com",
+ :port                 => 587,
+ :user_name            => "mundosss@gmail.com",
+ :password             => 'furiacd25',
+ :authentication       => "plain",
+ :enable_starttls_auto => true
+ }
+
 
   # Enable threaded mode
   # config.threadsafe!
