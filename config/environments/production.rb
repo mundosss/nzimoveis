@@ -80,7 +80,7 @@ Nzimoveis::Application.configure do
      authentication: "plain",
      enable_starttls_auto: true,
      user_name: "mundosss25@gmail.com",
-     password: "furiacd25"
+     password: "neuzanzimoveis"
  }
 
   # Enable threaded mode
