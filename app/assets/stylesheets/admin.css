@@ -34,3 +34,10 @@
     margin-right: 1em; }
 .pagination .next_page {
     margin-left: 1em; }
+
+    .span2 {
+
+    width: 150px;
+    height: 100px;
+    margin: 30px;
+}
