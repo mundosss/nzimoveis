@@ -26,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="database.yml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <file leaf-file-name="edit.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/imoveis/edit.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="0" selection-start="948" selection-end="948" vertical-scroll-proportion="0.8130841">
+            <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -54,13 +54,13 @@
         <option value="$PROJECT_DIR$/app/views/imoveis/new.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/imoveis_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/imoveis/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/imoveis/edit.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/mailers/user_mailer.rb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/admin.css" />
         <option value="$PROJECT_DIR$/app/views/imoveis/show.html.erb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/app/views/imoveis/edit.html.erb" />
       </list>
     </option>
   </component>
@@ -756,11 +756,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/imoveis/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="36" selection-start="782" selection-end="782" vertical-scroll-proportion="0.776699" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/imoveis/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="20" selection-start="64" selection-end="64" vertical-scroll-proportion="0.097087376" />
@@ -860,6 +855,13 @@
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="0" selection-start="948" selection-end="948" vertical-scroll-proportion="0.8130841">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/imoveis/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
