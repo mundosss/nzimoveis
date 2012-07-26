@@ -29,7 +29,7 @@
       <file leaf-file-name="database.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="21" selection-start="920" selection-end="920" vertical-scroll-proportion="0.7429907">
+            <state line="37" column="21" selection-start="920" selection-end="920" vertical-scroll-proportion="0.776873">
               <folding />
             </state>
           </provider>
@@ -83,9 +83,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="24" />
+    <option name="y" value="52" />
     <option name="width" value="1366" />
-    <option name="height" value="744" />
+    <option name="height" value="716" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -696,7 +696,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1366" height="744" extended-state="6" />
+    <frame x="0" y="52" width="1366" height="716" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22948328" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
@@ -881,7 +881,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="21" selection-start="920" selection-end="920" vertical-scroll-proportion="0.7429907">
+        <state line="37" column="21" selection-start="920" selection-end="920" vertical-scroll-proportion="0.776873">
           <folding />
         </state>
       </provider>
