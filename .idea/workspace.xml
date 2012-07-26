@@ -35,19 +35,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="47" selection-start="1376" selection-end="1376" vertical-scroll-proportion="0.6510417">
+            <state line="34" column="46" selection-start="1375" selection-end="1375" vertical-scroll-proportion="-15.625">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="179" column="42" selection-start="3016" selection-end="3016" vertical-scroll-proportion="0.0">
+            <state line="189" column="24" selection-start="3150" selection-end="3150" vertical-scroll-proportion="0.5872757">
               <folding />
             </state>
           </provider>
@@ -95,8 +95,8 @@
         <option value="$PROJECT_DIR$/app/views/imoveis/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/ga.js" />
         <option value="$PROJECT_DIR$/config/database.yml" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
       </list>
     </option>
   </component>
@@ -886,16 +886,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="179" column="42" selection-start="3016" selection-end="3016" vertical-scroll-proportion="0.0">
+        <state line="34" column="46" selection-start="1375" selection-end="1375" vertical-scroll-proportion="-15.625">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="47" selection-start="1376" selection-end="1376" vertical-scroll-proportion="0.6510417">
+        <state line="189" column="24" selection-start="3150" selection-end="3150" vertical-scroll-proportion="0.5872757">
           <folding />
         </state>
       </provider>
